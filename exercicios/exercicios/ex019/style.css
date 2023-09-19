@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(137, 194, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#html {
+    color: #e25300;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+#css {
+    color: #0084ff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 63, 65);
+}
+
+#principal {
+    text-align: center;
+    background-color: darkcyan;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    color: rgb(44, 115, 117);
+}
+
+.basico {
+    color: #21a179;
+}
+
+.intermediario {
+    color: #0f684f;
+}
+
+.avancado {
+    color: #373742;
+}

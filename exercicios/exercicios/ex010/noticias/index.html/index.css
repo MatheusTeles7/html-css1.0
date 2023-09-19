@@ -1,0 +1,37 @@
+
+.container {
+    background-color: #F0F8FF; /* Azul bebê */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #696969; /* Cinza claro */
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    text-align: left;
+  }
+  
+  input[type="submit"] {
+    background-color: #F0F8FF; /* Azul bebê */
+    color: #696969; /* Cinza claro */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ADD8E6; /* Azul claro */
+  }
+  
