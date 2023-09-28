@@ -28,7 +28,8 @@
         table {
             width: 500px;
             border-collapse: collapse;
-            margin: auto;       
+            margin: auto; 
+            position: relative;      
         }
 
         td, th {
@@ -44,25 +45,28 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(97, 97, 97);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(97, 97, 97);
         }
 
         .numero {
             text-align: right;
         }
 
-        #populoso {
-            background-color: forestgreen;
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
-
-        #capital {
-            background-color: rgb(255, 222, 36);
-        }
+        
     </style>
 </head>
 <body>
-    <h1>Os 20 Estados mais populosos do <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">Brasil</a> em 2020</h1>
+    <h1>Os 20 Estados mais populosos do <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">Brasil</a> em 2023</h1>
 
     <table>
         <caption>População das Unidades Federativas</caption>
@@ -80,7 +84,7 @@
         </tfoot>
         <tbody>
             <tr>
-                <td id="populoso">São paulo</td>
+                <td>São paulo</td>
                 <td class="numero">45 919 049</td>
             </tr>
             <tr>
@@ -156,8 +160,36 @@
                 <td class="numero">3 127 511</td>
             </tr>
             <tr>
-                <td id="capital">Distrito Federal</td>
+                <td>Distrito Federal</td>
                 <td class="numero">2 817 068</td>
+            </tr>
+            <tr>
+                <td> Mato Grosso do Sul</td>
+                <td class="numero">2 756 700</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="numero">2 209 558</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="numero">1 581 016	</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="numero">1 511 459</td>
+            </tr>
+            <tr>
+                <td> Acre</td>
+                <td class="numero">830 026</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="numero">733 508</td>
+            </tr>
+            <tr>
+                <td> Roraima</td>
+                <td class="numero">636 303</td>
             </tr>
         </tbody>
        
