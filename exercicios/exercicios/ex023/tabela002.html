@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title> 
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 65, 150);
+        }
+
+        a:hover {
+            background-image: linear-gradient(to right, green, yellow);
+            color: blue;
+            border-radius: 5px;
+            padding: 3px;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;       
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        .numero {
+            text-align: right;
+        }
+
+        #populoso {
+            background-color: forestgreen;
+        }
+
+        #capital {
+            background-color: rgb(255, 222, 36);
+        }
+    </style>
+</head>
+<body>
+    <h1>Os 20 Estados mais populosos do <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">Brasil</a> em 2020</h1>
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</td>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="numero"><strong>188 726 100</strong></th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td id="populoso">São paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <Td class="numero">21 168 791</Td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+            <tr>
+                 <td>Bahia</td>	
+                 <td class="numero">14 136 417</td>	
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 443 208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">10 880 506</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 058 155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">8 791 688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8 116 132	</td>
+            </tr>
+            <tr>
+                <td> Santa Catarina</td>
+                <td class="numero">7 609 601</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <Td class="numero">7 055 228</Td>
+            </tr>
+            <tr>
+                <td> Maranhão</td>
+                <td class="numero">6 775 152</td>
+            </tr>
+            <tr>
+                 <td>Paraíba</td>	
+                 <td class="numero">3 974 495</td>	
+            </tr>
+            <tr>
+                <td> Amazonas</td>
+                <td class="numero">3 941 175</td>
+            </tr>
+            <tr>
+                <td> Espírito Santo</td>
+                <td class="numero">3 833 486</td>
+            </tr>
+            <tr>
+                <td> Mato Grosso</td>
+                <td class="numero">3 658 813</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Norte</td>
+                <td class="numero">3 302 406</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="numero">3 269 200</td>
+            </tr>
+            <tr>
+                <td> Alagoas</td>
+                <td class="numero">3 127 511</td>
+            </tr>
+            <tr>
+                <td id="capital">Distrito Federal</td>
+                <td class="numero">2 817 068</td>
+            </tr>
+        </tbody>
+       
+    </table>
+</body>
+</html>
